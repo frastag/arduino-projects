@@ -1,4 +1,4 @@
-# Arduino Projects
+# Progetti Arduino
 
 Raccolta dei miei progetti Arduino: sketch, schemi, librerie custom e appunti.
 
