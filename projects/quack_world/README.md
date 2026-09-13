@@ -22,7 +22,7 @@ Il primo programma che ogni sviluppatore scrive dice "Hello, world", il mio dice
 
 ## Librerie richieste
 
-- nome-libreria (versione, da Library Manager)
+- LiquidCrystal_I2C 
 
 ## Come caricare
 
