@@ -42,7 +42,7 @@ void duckGo() {
   lcd.setCursor(0, 0);
   lcd.print("Duck");
   lcd.setCursor(0, 0);
-  lcd.print("come");
+  lcd.print("come!");
 
   printDuck();
 }
@@ -71,7 +71,7 @@ void setup() {
   // Assegnare la tipologia di PIN
   Serial.begin(9600);
   pinMode(TRIG_PIN, OUTPUT);
-  pinMode(ECO_PIN, INPUT);
+  pinMode(ECHO_PIN, INPUT);
 }
 
 void loop() {
@@ -83,7 +83,7 @@ void loop() {
   digitalWrite(TRIG_PIN, LOW);
 
   // Legge il tempo (in microsecondi) che l'eco impiega a tornare
-  long duration = pulseIn(ECO_PIN, HIGH);
+  long duration = pulseIn(ECHO_PIN, HIGH);
 
   // Calcola la distanza in cm (velocità del suono ≈ 343 m/s)
   float distance = duration * 0.0343 / 2;
