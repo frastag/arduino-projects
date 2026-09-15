@@ -41,7 +41,7 @@ void duckGo() {
   // Il primo argomento definisce la colonna e il secondo la riga
   lcd.setCursor(0, 0);
   lcd.print("Duck");
-  lcd.setCursor(0, 0);
+  lcd.setCursor(1, 0);
   lcd.print("come!");
 
   printDuck();
